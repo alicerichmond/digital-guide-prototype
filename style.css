@@ -3,6 +3,7 @@
 h1 {
 	font-family: wellcome;
 	font-size: 50px;
+	line-height: 1.3;
 }
 h2{
 	font-family:  wellcome;
@@ -37,6 +38,7 @@ body{
 
 header{
 	margin-left: 1%;
+	margin-bottom: 48px;
 }
 
 #playbackspeed {
@@ -107,7 +109,7 @@ height: 30px;
 	}
 
 .audioguides h4 {
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 .audiodesc {
@@ -123,7 +125,7 @@ height: 30px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 }
 
 .tourtype {
