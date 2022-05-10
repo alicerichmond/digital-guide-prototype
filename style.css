@@ -14,8 +14,8 @@ h3{
 	font-size: 20px;
 }
 h4{
-	font-family: Wellcome;
-	font-size: 1.6em;
+	font-family: Helvetica neue;
+	font-size: 1.4em;
 }
 
 h5{
@@ -31,6 +31,7 @@ p {
 
 body{
 	width: 90%;
+	marign: 0 auto;
 	background-color: white;
 }
 
@@ -130,7 +131,7 @@ height: 30px;
 	margin-top: 10px;
 	flex-direction: column;
 	max-width: 30em;
-	height: 20em;
+	height: 15em;
 	flex-grow: 4;
 	background-color: #d1eaec;
 	text-decoration: none;
