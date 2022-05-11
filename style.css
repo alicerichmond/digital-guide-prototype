@@ -320,3 +320,13 @@ height: 30px;
 	font-size: 0.9em;
 }
 
+.quote {
+	border-left: 12px solid rgb(217, 214, 206);
+	padding-left: 0.9em;
+	margin-top: 40px;
+}
+
+.quotecite {
+	font-size: 16px;
+	color: #6b6b6b;
+}
