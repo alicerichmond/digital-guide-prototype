@@ -33,8 +33,10 @@ p {
 }
 
 body{
-	width: 90%;
-	margin: 0 auto;
+	max-width: 1440px;
+	margin: 0 auto !important;
+	padding-left: 5%;
+	padding-right: 5%;
 	background-color: white;
 }
 
@@ -329,4 +331,20 @@ height: 30px;
 .quotecite {
 	font-size: 16px;
 	color: #6b6b6b;
+}
+
+.gallerystopvideos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+}
+
+.gallerystopvid {
+	flex-direction: row;
+	margin: 10px 10px 40px 10px;
+}
+
+.bslvideo {
+	max-width:  580px;
 }
