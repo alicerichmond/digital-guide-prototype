@@ -151,12 +151,14 @@ height: 30px;
 
 .tourtype h2 {
 	margin-left: 4%;
+	margin-right: 4%;
 
 }
 
 .tourtype p {
 	margin-left: 4%;
 	margin-right: 2%;
+	font-size: 1.1em;
 
 }
 
