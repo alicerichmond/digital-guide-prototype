@@ -3,7 +3,6 @@
 h1 {
 	font-family: wellcome;
 	font-size: 50px;
-	line-height: 1.3;
 }
 h2{
 	font-family:  wellcome;
@@ -11,12 +10,15 @@ h2{
 }
 
 h3{
-	font-family:  Helvetica neue;
+	font-family:  wellcome;
 	font-size: 20px;
 }
 h4{
-	font-family: Helvetica neue;
-	font-size: 1.4em;
+	font-family: wellcome;
+	font-size: 1.2em;
+	line-height: 1.3;
+	font-weight: normal;
+	margin-bottom: 10px;
 }
 
 h5{
@@ -32,17 +34,18 @@ p {
 
 body{
 	width: 90%;
-	marign: 0 auto;
+	margin: 0 auto;
 	background-color: white;
 }
 
 header{
 	margin-left: 1%;
-	margin-bottom: 48px;
+	margin-bottom: 4%;
 }
 
 #playbackspeed {
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 #playbackspeed button {
@@ -80,7 +83,8 @@ height: 30px;
 
 .gallerystop audio {
 	border-radius: 5px;
-	padding-top: 27px;
+	margin-top: 10px;
+	padding-top: 20px;
 }
 
 .gallerystop {
@@ -93,13 +97,14 @@ height: 30px;
 .audioguides {
 	display: flex;
 	flex-direction: column;
-	min-width:400px;
+	min-width:380px;
 	margin-left: 1%;
-	max-width: 400px;
+	padding: 10px;
+	max-width: 380px;
 }
 
 .audioguides .title {
-	height: 5em;
+	height: 4em;
 	}
 
 .audiodesc .audioguides .title {
@@ -109,13 +114,13 @@ height: 30px;
 	}
 
 .audioguides h4 {
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .audiodesc {
 	flex-direction: column;
 	background-color: #f0ede3;
-	margin: 10px;
+	margin: 10px 5px 40px 5px;
 	min-width: 410px;
 }
 
@@ -125,7 +130,7 @@ height: 30px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .tourtype {
@@ -133,7 +138,7 @@ height: 30px;
 	margin-top: 10px;
 	flex-direction: column;
 	max-width: 30em;
-	height: 15em;
+	height: 10em;
 	flex-grow: 4;
 	background-color: #d1eaec;
 	text-decoration: none;
@@ -168,6 +173,9 @@ height: 30px;
 
 .transcriptintro{
 	margin-left: 1%;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 5%;
 }
 
 .captionarea {
@@ -213,8 +221,9 @@ height: 30px;
 .gallerytour {
 	display: flex;
 	margin-top: 10px;
+	margin-bottom: 4%;
 	flex-direction: column;
-	max-width: 30em;
+	max-width: 25em;
 	flex-grow: 4;
 	background-color: #d1eaec;
 	text-decoration: none;
@@ -229,7 +238,7 @@ height: 30px;
 
 .gallerytour a:hover {
 		background-color: grey;
-		max-width: 30em;
+		max-width: 25em;
 		height: 32em;
 
 }
@@ -248,13 +257,14 @@ height: 30px;
 	font-family: helvetica neue;
 	color: black;
 	line-height: 1.4;
+	padding: 0 10px;
 }
 
 
 .gallerytourmini {
 	display: flex;
 	flex-direction: column;
-	max-width: 30em;
+	max-width: 25em;
 	flex-grow: 4;
 	background-color: #d1eaec;
 	text-decoration: none;
@@ -272,7 +282,7 @@ height: 30px;
 
 .gallerytourmini a:hover {
 		background-color: grey;
-		max-width: 30em;
+		max-width: 25em;
 		height: 27em;
 		padding-bottom: 20px;
 
@@ -290,8 +300,8 @@ height: 30px;
 }
 
 .transtitle {
-	max-width: 30em;
-	min-width: 30em;
+	max-width: 20em;
+	min-width: 20em;
 	font-size: 0.8em;
 	flex-wrap: nowrap;
 }
@@ -310,3 +320,13 @@ height: 30px;
 	font-size: 0.9em;
 }
 
+.quote {
+	border-left: 12px solid rgb(217, 214, 206);
+	padding-left: 0.9em;
+	margin-top: 40px;
+}
+
+.quotecite {
+	font-size: 16px;
+	color: #6b6b6b;
+}
