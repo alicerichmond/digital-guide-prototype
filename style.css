@@ -1,4 +1,11 @@
-@import url(//db.onlinewebfonts.com/c/0266b572f93d8951152b39652eb58613?family=Wellcome);
+/*@import url(//db.onlinewebfonts.com/c/0266b572f93d8951152b39652eb58613?family=Wellcome);*/
+
+@font-face 
+{ 
+font-family: "Open Sans";  
+src: url("./fonts/Wellcome-Bold.otf")format("otf"); 
+}
+
 
 h1 {
 	font-family: wellcome;
