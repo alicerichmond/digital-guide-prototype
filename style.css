@@ -8,23 +8,24 @@ src: url("./fonts/Wellcome-Bold.otf")format("otf");
 :12*/
 
 @font-face{font-family:'Wellcome Bold Web';src:url('https://i.wellcomecollection.org/assets/fonts/wellcome-bold.woff2') format('woff2'),url('https://i.wellcomecollection.org/assets/fonts/wellcome-bold.woff') format('woff');font-weight:bold;font-style:normal;}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
 h1 {
-	font-family: wellcome;
+	font-family: Wellcome Bold Web;
 	font-size: 50px;
 }
 h2{
-	font-family:  wellcome;
+	font-family:'Wellcome Bold Web';
 	line-height: 1.3;
 }
 
 h3{
-	font-family:  wellcome;
+	font-family:'Wellcome Bold Web';
 	font-size: 20px;
 }
 h4{
-	font-family: wellcome;
+	font-family:Wellcome Bold Web;
 	font-size: 1.2em;
 	line-height: 1.3;
 	font-weight: normal;
@@ -32,13 +33,13 @@ h4{
 }
 
 h5{
-	font-family: Helvetica neue;
+	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	margin-top: 20px;
 }
 
 p {
-	font-family: Helvetica neue;
+	font-family: 'Inter', sans-serif;
 	font-size: 1.1em;
 }
 
@@ -65,7 +66,7 @@ header{
 background: rgb(0, 120, 104) none repeat scroll 0% 0%;
 color: rgb(255, 255, 255);
 border: 2px solid rgb(0, 120, 104);
-font-family: "Helvetica Neue Roman Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Inter', sans-serif;
 font-size: 16px;
 font-variant-ligatures: no-common-ligatures;
 line-height: 30px;
@@ -212,7 +213,7 @@ height: 30px;
 .changetour a {
 	text-decoration: none;
 	color: white;
-	font-family: helvetica neue;
+	font-family: 'Inter', sans-serif;
 	font-weight: 600;
 }
 
@@ -268,7 +269,7 @@ height: 30px;
 .gallerytourdesc {
 	margin-left: 2%;
 	margin-right: 2%;
-	font-family: helvetica neue;
+	font-family: 'Inter', sans-serif;
 	color: black;
 	line-height: 1.4;
 	padding: 0 10px;
