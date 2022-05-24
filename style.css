@@ -1,11 +1,12 @@
 /*@import url(//db.onlinewebfonts.com/c/0266b572f93d8951152b39652eb58613?family=Wellcome);*/
 
-@font-face 
+/*@font-face 
 { 
 font-family: "Open Sans";  
 src: url("./fonts/Wellcome-Bold.otf")format("otf"); 
 }
-:12
+:12*/
+
 @font-face{font-family:'Wellcome Bold Web';src:url('https://i.wellcomecollection.org/assets/fonts/wellcome-bold.woff2') format('woff2'),url('https://i.wellcomecollection.org/assets/fonts/wellcome-bold.woff') format('woff');font-weight:bold;font-style:normal;}
 
 
