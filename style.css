@@ -5,6 +5,8 @@
 font-family: "Open Sans";  
 src: url("./fonts/Wellcome-Bold.otf")format("otf"); 
 }
+:12
+@font-face{font-family:'Wellcome Bold Web';src:url('https://i.wellcomecollection.org/assets/fonts/wellcome-bold.woff2') format('woff2'),url('https://i.wellcomecollection.org/assets/fonts/wellcome-bold.woff') format('woff');font-weight:bold;font-style:normal;}
 
 
 h1 {
